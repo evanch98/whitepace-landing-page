@@ -54,7 +54,7 @@ const config: Config = {
           md: "6px",
           sm: "4px",
         },
-        primary: {
+        secondary: {
           DEFAULT: "#043873",
           50: "#CDD7E3",
           100: "#ABBDD0",
@@ -68,7 +68,7 @@ const config: Config = {
           900: "#011326",
           1000: "#010B17",
         },
-        secondary: {
+        primary: {
           DEFAULT: "#4F9CF9",
           50: "#DCEBFE",
           100: "#C4DEFD",
