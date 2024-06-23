@@ -14,7 +14,7 @@ export const Navbar = () => {
           <Logo className="w-[134px] h-[24px] md:w-[191px] md:h-[34px]" />
         </Link>
         {largeScreen && (
-          <div className="flex items-center justify-center gap-x-[60px]">
+          <div className="flex items-center justify-center gap-x-[60px] z-50">
             <NavMenu />
             <div className="flex gap-x-6">
               <Button variant="secondary">Login</Button>
