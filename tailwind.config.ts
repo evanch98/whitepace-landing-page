@@ -14,6 +14,13 @@ const config: Config = {
       xl: "1440px",
       "2xl": "1920px",
     },
+    container: {
+      center: true,
+      padding: "2rem",
+      screens: {
+        "2xl": "1400px",
+      },
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -21,8 +28,34 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
+        border: "#FFE492",
+        input: "#212529",
+        ring: "#212529",
+        background: "#FFFFFF",
+        foreground: "#212529",
+        destructive: {
+          DEFAULT: "#EF4444",
+          foreground: "#F8FAFC",
+        },
+        muted: {
+          DEFAULT: "#F1F5F9",
+          foreground: "#C4DEFD",
+        },
+        popover: {
+          DEFAULT: "#FFFFFF",
+          foreground: "#212529",
+        },
+        card: {
+          DEFAULT: "#FFFFFF",
+          foreground: "#212529",
+        },
+        borderRadius: {
+          lg: "8px",
+          md: "6px",
+          sm: "4px",
+        },
         primary: {
-          main: "#043873",
+          DEFAULT: "#043873",
           50: "#CDD7E3",
           100: "#ABBDD0",
           200: "#819BB9",
@@ -36,7 +69,7 @@ const config: Config = {
           1000: "#010B17",
         },
         secondary: {
-          main: "#4F9CF9",
+          DEFAULT: "#4F9CF9",
           50: "#DCEBFE",
           100: "#C4DEFD",
           200: "#A7CDFC",
@@ -79,8 +112,22 @@ const config: Config = {
           { lineHeight: "1.213rem", letterSpacing: "-0.02em" },
         ],
       },
+      keyframes: {
+        "accordion-down": {
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        "accordion-up": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+      },
+      animation: {
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 };
 export default config;
