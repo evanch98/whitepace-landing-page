@@ -1,7 +1,6 @@
 "use client";
 
-import { Button, Container } from "@/components/atoms";
-import { ArrowBigRight, ArrowRight } from "lucide-react";
+import { Navbar } from "@/components/molecules";
 import { useEffect, useState } from "react";
 
 const Client = () => {
@@ -16,14 +15,9 @@ const Client = () => {
   }
 
   return (
-    <Container>
-      <Button>Get Started</Button>
-      <Button size="with-icon">
-        Try Whitepace Free <ArrowRight />
-      </Button>
-      <Button variant="secondary">Login</Button>
-      <Button variant="outline">Get Started</Button>
-    </Container>
+    <>
+      <Navbar />
+    </>
   );
 };
 
