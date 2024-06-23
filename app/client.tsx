@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@/components/atoms";
+import { Button, Container } from "@/components/atoms";
 import { ArrowBigRight, ArrowRight } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -16,14 +16,14 @@ const Client = () => {
   }
 
   return (
-    <div className="flex items-center justify-center space-x-1 p-2">
+    <Container>
       <Button>Get Started</Button>
       <Button size="with-icon">
         Try Whitepace Free <ArrowRight />
       </Button>
       <Button variant="secondary">Login</Button>
       <Button variant="outline">Get Started</Button>
-    </div>
+    </Container>
   );
 };
 
