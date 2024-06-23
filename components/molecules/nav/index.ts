@@ -1,4 +1,3 @@
-export * from "./navbar";
 export * from "./nav-link";
 export * from "./nav-menu";
 export * from "./nav-products";
