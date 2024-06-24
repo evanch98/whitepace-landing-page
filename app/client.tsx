@@ -1,7 +1,7 @@
 "use client";
 
-import { CircularAvatars } from "@/components/molecules";
 import {
+  CustomizeSection,
   HeroSection,
   Navbar,
   ProjectManagementSection,
@@ -26,6 +26,7 @@ const Client = () => {
       <HeroSection />
       <ProjectManagementSection />
       <WorkTogetherSection />
+      <CustomizeSection />
     </>
   );
 };
