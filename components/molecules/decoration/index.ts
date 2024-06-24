@@ -1,1 +1,3 @@
-export * from "./stroke-management";
+export * from "./stroke";
+export * from "./circular-avatars";
+export * from "./deco-avatar";
