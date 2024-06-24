@@ -47,3 +47,27 @@ export const Section2Text = () => {
     </div>
   );
 };
+
+export const Section3Text = () => {
+  return (
+    <div className="flex flex-col gap-y-6 z-10">
+      <h1 className="text-h4 md:text-h3 lg:text-h2 xl:text-h1 font-bold text-center lg:text-left">
+        Customize it to your{" "}
+        <span className="relative">
+          <span className="relative z-50">needs</span>
+          <div className="absolute flex -bottom-1 md:bottom-0 xl:bottom-2 left-0 z-10">
+            <Stroke
+              className="w-[120px] h-[29px] md:w-[191px] md:h-[19px] lg:w-[200px] lg:h-[19px] xl:w-[205px] xl:h-[19px] flex-shrink-0"
+              imgSrc="/assets/stroke.svg"
+            />
+          </div>
+        </span>
+      </h1>
+      <p className="text-p2 text-center lg:text-left">
+        Customize the app with plugins, custom themes and multiple text editors
+        (Rich Text or Markdown). Or create your own scripts and plugins using
+        the Extension API.
+      </p>
+    </div>
+  );
+};
