@@ -14,9 +14,13 @@ import {
   NavSolutions,
 } from "@/components/molecules";
 
-export const NavMenu = () => {
+interface INavMenu {
+  className?: string;
+}
+
+export const NavMenu = ({ className }: INavMenu) => {
   return (
-    <NavigationMenu>
+    <NavigationMenu className={className}>
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Products</NavigationMenuTrigger>
