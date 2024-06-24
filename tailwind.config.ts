@@ -22,6 +22,11 @@ const config: Config = {
       },
     },
     extend: {
+      boxShadow: {
+        s1: "0px 4px 50px -5px rgb(0 0 0 / 0.25)",
+        s2: "0px 4px 50px -11px rgb(0 0 0 /0.25)",
+        s3: "0px 3.62px 45.28px -9.96px rgb(0 0 0 / 0.25)",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
