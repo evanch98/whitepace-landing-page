@@ -1,9 +1,11 @@
 "use client";
 
+import { CircularAvatars } from "@/components/molecules";
 import {
   HeroSection,
   Navbar,
   ProjectManagementSection,
+  WorkTogetherSection,
 } from "@/components/organisms";
 import { useEffect, useState } from "react";
 
@@ -23,6 +25,7 @@ const Client = () => {
       <Navbar />
       <HeroSection />
       <ProjectManagementSection />
+      <WorkTogetherSection />
     </>
   );
 };
