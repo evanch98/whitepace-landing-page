@@ -1,6 +1,10 @@
 "use client";
 
-import { HeroSection, Navbar } from "@/components/organisms";
+import {
+  HeroSection,
+  Navbar,
+  ProjectManagementSection,
+} from "@/components/organisms";
 import { useEffect, useState } from "react";
 
 const Client = () => {
@@ -18,6 +22,7 @@ const Client = () => {
     <>
       <Navbar />
       <HeroSection />
+      <ProjectManagementSection />
     </>
   );
 };
