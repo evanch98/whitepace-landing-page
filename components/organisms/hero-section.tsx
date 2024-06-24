@@ -11,7 +11,7 @@ export const HeroSection = () => {
           <div className="z-10">
             <Button size="with-icon">
               Try Whitepace free
-              <ArrowRight className="w-[10px] h-[10px]" />
+              <ArrowRight className="w-4 h-4" />
             </Button>
           </div>
         </div>
