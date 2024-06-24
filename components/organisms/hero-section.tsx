@@ -1,7 +1,6 @@
 import { Button, Container } from "@/components/atoms";
 import { HeroBackground, HeroImage, HeroText } from "@/components/molecules";
 import { ArrowRight } from "lucide-react";
-import Image from "next/image";
 
 export const HeroSection = () => {
   return (
