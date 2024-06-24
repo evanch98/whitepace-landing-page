@@ -6,7 +6,7 @@ import Image from "next/image";
 export const ProjectManagementSection = () => {
   return (
     <div className="w-full relative">
-      <Container className="text-accent-black">
+      <Container className="text-accent-black gap-y-[60px]">
         <div className="flex items-center lg:items-start flex-col gap-y-[60px]">
           <Section1Text />
           <div className="z-10">

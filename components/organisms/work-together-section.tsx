@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 export const WorkTogetherSection = () => {
   return (
     <div className="w-full">
-      <Container className="text-accent-black xl:justify-center xl:gap-x-[160px] 2xl:gap-x-[100px]">
+      <Container className="text-accent-black xl:justify-center xl:gap-x-[160px] 2xl:gap-x-[100px] gap-y-[60px]">
         <CircularAvatars />
         <div className="flex items-center lg:items-start flex-col gap-y-[60px]">
           <Section2Text />
