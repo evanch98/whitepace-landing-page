@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 export const HeroSection = () => {
   return (
     <div className="relative overflow-hidden">
-      <Container className="bg-secondary text-white h-full flex flex-col items-center justify-center gap-y-[100px] lg:flex-row py-[80px] md:pt-[140px] md:pb-[100px] lg:py-[140px] xl:py-[100px] 2xl:py-[140px]">
+      <Container className="bg-secondary text-white">
         <div className="flex items-center lg:items-start flex-col gap-y-[60px]">
           <HeroText />
           <div className="z-10">
