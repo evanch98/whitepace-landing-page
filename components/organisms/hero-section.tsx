@@ -15,7 +15,7 @@ export const HeroSection = () => {
             </Button>
           </div>
         </div>
-        <HeroImage />
+        <HeroImage imgSrc="/assets/hero.svg" />
       </Container>
       <div className="absolute top-1/2 -translate-y-[440px] md:-translate-y-1/2 left-1/2 -translate-x-1/2 w-full h-[633px] md:h-[693px] lg:h-[422px] xl:h-[433px] 2xl:h-[547px]">
         <HeroBackground />
