@@ -4,6 +4,7 @@ import {
   CustomizeSection,
   HeroSection,
   Navbar,
+  PricingSection,
   ProjectManagementSection,
   WorkTogetherSection,
 } from "@/components/organisms";
@@ -27,6 +28,7 @@ const Client = () => {
       <ProjectManagementSection />
       <WorkTogetherSection />
       <CustomizeSection />
+      <PricingSection />
     </>
   );
 };
