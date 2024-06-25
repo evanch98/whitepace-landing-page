@@ -6,7 +6,7 @@ export const HeroSection = () => {
   return (
     <div className="relative overflow-hidden">
       <Container className="bg-secondary text-white">
-        <div className="flex flex-col items-center justify-between gap-y-[100px] lg:flex-row py-[80px] md:pt-[140px] md:pb-[100px] lg:py-[140px] xl:py-[100px] 2xl:py-[140px]">
+        <div className="flex flex-col items-center justify-between gap-y-[100px] lg:flex-row py-[80px] md:pt-[140px] md:pb-[100px] lg:py-[140px] xl:py-[100px] 2xl:py-[140px] w-full">
           <div className="flex items-center lg:items-start flex-col gap-y-[60px]">
             <HeroText />
             <div className="z-10">
