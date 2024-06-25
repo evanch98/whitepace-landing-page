@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  CallToActionSection,
   CustomizeSection,
   HeroSection,
   Navbar,
@@ -29,6 +30,7 @@ const Client = () => {
       <WorkTogetherSection />
       <CustomizeSection />
       <PricingSection />
+      <CallToActionSection />
     </>
   );
 };
