@@ -8,7 +8,7 @@ import { freePlan, organizationPlan, personalPlan } from "@/content";
 
 export const PricingSection = () => {
   return (
-    <div className="w-full pb-[100px]">
+    <div className="w-full pb-[80px] md:pb-[100px] lg:pb-0">
       <Container className="text-accent-black lg:flex-col items-center justify-center gap-y-[60px]">
         <PricingSectionText />
         <div className="hidden lg:flex w-full items-center justify-center gap-x-8">
