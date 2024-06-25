@@ -35,13 +35,13 @@ export const PricingCarousel = () => {
         opts={{ align: "center", startIndex: 1 }}
       >
         <CarouselContent>
-          <CarouselItem className="pl-5 md:basis-[60%] mt-[40px]">
+          <CarouselItem className="pl-5 md:basis-[60%] md:mt-[40px]">
             <PricingCard {...freePlan} />
           </CarouselItem>
           <CarouselItem className="pl-8 md:basis-[60%]">
             <PricingCard isHighlight {...personalPlan} />
           </CarouselItem>
-          <CarouselItem className="pl-8 pr-5 md:basis-[60%] mt-[40px]">
+          <CarouselItem className="pl-8 pr-5 md:basis-[60%] md:mt-[40px]">
             <PricingCard {...organizationPlan} />
           </CarouselItem>
         </CarouselContent>
