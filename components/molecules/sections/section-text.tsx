@@ -94,3 +94,19 @@ export const PricingSectionText = () => {
     </div>
   );
 };
+
+export const Section4Text = () => {
+  return (
+    <div className="flex flex-col gap-y-[60px] z-10 w-full xl:max-w-[1064px]">
+      <h1 className="text-h4 md:text-h3 lg:text-h2 xl:text-h1 font-bold text-center">
+        Your work, everywhere you are
+      </h1>
+      <p className="text-p2 text-center">
+        Access your notes from your computer, phone or tablet by synchronizing
+        with various services, including whitespace, Dropbox and OneDrive. The
+        app is available on Windows, macOS, Linux, Android, and iOS. A terminal
+        app is also available.
+      </p>
+    </div>
+  );
+};
