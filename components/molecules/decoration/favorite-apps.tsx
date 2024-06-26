@@ -8,7 +8,7 @@ export const FavoriteApps = () => {
     "w-[22px] h-[22px] md:w-[36px] md:h-[36px] lg:w-[39px] lg:h-[39px] xl:w-[44px] xl:h-[44px]";
 
   return (
-    <div className="relative w-[286px] h-[231px] md:w-[485px] md:h-[392px] lg:w-[528px] lg:h-[427px] xl:w-[582px] xl:h-[470px]">
+    <div className="relative w-[286px] h-[231px] md:w-[485px] md:h-[392px] lg:w-[528px] lg:h-[427px] xl:w-[582px] xl:h-[470px] flex-shrink-0">
       <Circle
         className={cn("absolute top-0 left-1/2 -translate-x-1/2", circleSize)}
       />
