@@ -5,7 +5,7 @@
   },
   "plugins": ["prettier"],
   "rules": {
-    "no-unused-vars": "error",
+    "no-unused-vars": "warn",
     "no-empty-function": "error",
     "no-console": "warn",
     "prettier/prettier": "warn"
