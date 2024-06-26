@@ -5,3 +5,4 @@ export * from "./work-together-section";
 export * from "./customize-section";
 export * from "./pricing-section";
 export * from "./call-to-action-section";
+export * from "./security-feature-section";
