@@ -110,3 +110,28 @@ export const Section4Text = () => {
     </div>
   );
 };
+
+export const Section5Text = () => {
+  return (
+    <div className="flex flex-col gap-y-6 z-10">
+      <h1 className="text-h4 md:text-h3 lg:text-h2 xl:text-h1 font-bold text-center lg:text-left">
+        100%{" "}
+        <span className="relative">
+          <span className="relative z-50">your data</span>
+          <div className="absolute flex -bottom-1 md:bottom-0 xl:bottom-2 left-0 z-10">
+            <Stroke
+              className="w-[193px] h-[24px] md:w-[280px] md:h-[25px] lg:w-[283px] lg:h-[22px] xl:w-[328px] xl:h-[30px] flex-shrink-0"
+              imgSrc="/assets/stroke.svg"
+            />
+          </div>
+        </span>
+      </h1>
+      <p className="text-p2 text-center lg:text-left w-full lg:max-w-[979px]">
+        The app is open source and your notes are saved to an open format, so
+        you&apos;ll always have access to them. Uses End-To-End Encryption
+        (E2EE) to secure your notes and ensure no-one but yourself can access
+        them.
+      </p>
+    </div>
+  );
+};
