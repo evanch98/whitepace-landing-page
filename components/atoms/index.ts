@@ -8,3 +8,4 @@ export * from "./avatar";
 export * from "./carousel";
 export * from "./icon-box";
 export * from "./semicircle";
+export * from "./circle";
