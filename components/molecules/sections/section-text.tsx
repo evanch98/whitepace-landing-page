@@ -138,17 +138,17 @@ export const Section5Text = () => {
 
 export const SponsorsText = () => {
   return (
-      <h1 className="text-h4 md:text-h3 lg:text-h2 xl:text-h1 font-bold text-center lg:text-left">
-        Our{" "}
-        <span className="relative">
-          <span className="relative z-50">sponsors</span>
-          <div className="absolute flex -bottom-1 md:bottom-0 xl:bottom-2 left-0 z-10">
-            <Stroke
-              className="w-[193px] h-[24px] md:w-[280px] md:h-[25px] lg:w-[283px] lg:h-[22px] xl:w-[328px] xl:h-[30px] flex-shrink-0"
-              imgSrc="/assets/stroke.svg"
-            />
-          </div>
-        </span>
-      </h1>
+    <h1 className="text-h4 md:text-h3 lg:text-h2 xl:text-h1 font-bold text-center lg:text-left">
+      Our{" "}
+      <span className="relative">
+        <span className="relative z-50">sponsors</span>
+        <div className="absolute flex -bottom-1 md:bottom-0 xl:bottom-2 left-0 z-10">
+          <Stroke
+            className="w-[193px] h-[24px] md:w-[280px] md:h-[25px] lg:w-[283px] lg:h-[22px] xl:w-[328px] xl:h-[30px] flex-shrink-0"
+            imgSrc="/assets/stroke.svg"
+          />
+        </div>
+      </span>
+    </h1>
   );
 };
