@@ -7,6 +7,7 @@ import {
   Navbar,
   PricingSection,
   ProjectManagementSection,
+  SecurityFeatureSection,
   WorkTogetherSection,
 } from "@/components/organisms";
 import { useEffect, useState } from "react";
@@ -31,6 +32,7 @@ const Client = () => {
       <CustomizeSection />
       <PricingSection />
       <CallToActionSection />
+      <SecurityFeatureSection />
     </>
   );
 };
