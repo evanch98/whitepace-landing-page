@@ -152,3 +152,17 @@ export const SponsorsText = () => {
     </h1>
   );
 };
+
+export const Section6Text = () => {
+  return (
+    <div className="flex flex-col gap-y-[24px] z-10 w-full xl:max-w-[1064px]">
+      <h1 className="text-h4 md:text-h3 lg:text-h2 xl:text-h1 font-bold text-center lg:text-left">
+        Work with Your Favorite Apps Using Whitepace
+      </h1>
+      <p className="text-p2 text-center lg:text-left">
+        Whitepace teams up with your favorite software. Integrate with over
+        1000+ apps to have all the tools you need for your project success.
+      </p>
+    </div>
+  );
+};
