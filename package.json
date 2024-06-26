@@ -2,6 +2,11 @@
   "name": "whitepace-landing-page",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=20.12.2",
+    "npm": ">=10.2.3",
+    "yarn": "please-use-npm"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
