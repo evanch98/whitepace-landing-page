@@ -8,6 +8,7 @@ import {
   PricingSection,
   ProjectManagementSection,
   SecurityFeatureSection,
+  SponsorsSection,
   WorkTogetherSection,
 } from "@/components/organisms";
 import { useEffect, useState } from "react";
@@ -33,6 +34,7 @@ const Client = () => {
       <PricingSection />
       <CallToActionSection />
       <SecurityFeatureSection />
+      <SponsorsSection />
     </>
   );
 };
