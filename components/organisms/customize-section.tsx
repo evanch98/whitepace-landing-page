@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 export const CustomizeSection = () => {
   return (
     <div className="w-full">
-      <Container className="text-white bg-secondary lg:justify-center lg:gap-x-[60px] 2xl:gap-x-[98px] gap-y-[60px]">
+      <Container className="text-white bg-secondary">
         <div className="flex flex-col lg:flex-row items-center justify-between lg:justify-center py-[80px] md:pt-[140px] md:pb-[100px] lg:py-[140px] xl:py-[100px] 2xl:py-[140px] lg:gap-x-[60px] 2xl:gap-x-[98px] gap-y-[60px]">
           <div className="flex items-center lg:items-start flex-col gap-y-[60px]">
             <Section3Text />
