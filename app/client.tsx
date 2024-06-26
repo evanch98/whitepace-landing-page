@@ -3,6 +3,7 @@
 import {
   CallToActionSection,
   CustomizeSection,
+  FavoriteAppsSection,
   HeroSection,
   Navbar,
   PricingSection,
@@ -25,7 +26,7 @@ const Client = () => {
   }
 
   return (
-    <>
+    <main>
       <Navbar />
       <HeroSection />
       <ProjectManagementSection />
@@ -35,7 +36,8 @@ const Client = () => {
       <CallToActionSection />
       <SecurityFeatureSection />
       <SponsorsSection />
-    </>
+      <FavoriteAppsSection />
+    </main>
   );
 };
 
