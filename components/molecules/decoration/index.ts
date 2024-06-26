@@ -1,4 +1,4 @@
 export * from "./stroke";
 export * from "./circular-avatars";
 export * from "./deco-avatar";
-export * from "./semicircle";
+export * from "./security-feature";
