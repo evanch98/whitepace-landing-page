@@ -13,7 +13,7 @@ export const CallToActionSection = () => {
           <ArrowRight className="w-4 h-4" />
         </Button>
       </div>
-      <div className="hidden md:flex absolute md:w-[680px] md:h-[690px] md:rotate-[-105deg] md:top-1/2 md:-translate-y-1/2 md:-left-[55%] lg:-left-[30%] xl:-left-[20%]">
+      <div className="hidden md:flex absolute md:w-[680px] md:h-[500px] md:rotate-[-105deg] md:top-[35%] md:-translate-y-1/2 md:-left-[55%] lg:-left-[30%] xl:-left-[20%]">
         <Image
           src="/assets/web-alt.svg"
           alt="Decoration"
