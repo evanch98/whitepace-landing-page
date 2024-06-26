@@ -10,7 +10,7 @@ export const Container = ({ children, className }: IContainer) => {
     <div
       className={cn(
         "w-full px-4 md:px-5 lg:px-8 2xl:px-[220px] h-full flex flex-col items-center justify-center",
-        className
+        className,
       )}
     >
       {children}

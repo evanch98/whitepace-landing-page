@@ -25,7 +25,7 @@ export const PricingCard = ({
       className={cn(
         "w-full flex flex-col gap-y-[25px] border border-border rounded-[10px] py-[44px] px-[40px] text-accent-black",
         isHighlight && "border-none bg-secondary py-20 text-white",
-        className
+        className,
       )}
     >
       <h1 className="text-p1SemiBold font-semibold">{plan}</h1>

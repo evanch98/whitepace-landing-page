@@ -3,17 +3,12 @@ import Image from "next/image";
 
 interface IStroke {
   className?: string;
-  imgSrc: string
+  imgSrc: string;
 }
 
 export const Stroke = ({ className, imgSrc }: IStroke) => {
   return (
-    <div
-      className={cn(
-        "relative",
-        className
-      )}
-    >
+    <div className={cn("relative", className)}>
       <Image
         src={imgSrc}
         alt="Stroke"

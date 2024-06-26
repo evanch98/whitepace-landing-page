@@ -9,7 +9,7 @@ export const Circle = ({ className }: ICircle) => {
     <div
       className={cn(
         "w-[291px] h-[291px] rounded-full border-2 border-secondary-200 border-dashed",
-        className
+        className,
       )}
     />
   );

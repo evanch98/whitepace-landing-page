@@ -8,7 +8,7 @@ export const useHeroBackgroundImage = (): string => {
 
   let imgSrc = "/assets/hero-bg.svg";
 
-  if (xxl){
+  if (xxl) {
     imgSrc = "assets/hero-bg-2xl.svg";
   } else if (xl) {
     imgSrc = "assets/hero-bg-xl.svg";

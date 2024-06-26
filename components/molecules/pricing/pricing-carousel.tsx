@@ -52,7 +52,7 @@ export const PricingCarousel = () => {
             key={index}
             className={cn(
               "w-3 h-3 rounded-full bg-primary",
-              current === index && "bg-secondary"
+              current === index && "bg-secondary",
             )}
           />
         ))}
