@@ -175,9 +175,9 @@ export const CtaText = () => {
         Try Whitepace today
       </h1>
       <p className="text-p2 md:text-p1 text-center">
-        Get started for free
+        Get started for free.
         <br />
-        Add your whole team as your needs grow
+        Add your whole team as your needs grow.
       </p>
     </div>
   );
@@ -190,6 +190,21 @@ export const FooterText = () => {
       <p className="text-p2 text-center md:text-left">
         whitepace was created for the new ways we live and work. We make
         beautifully designed around the world.
+      </p>
+    </div>
+  );
+};
+
+export const FooterCtaText = () => {
+  return (
+    <div className="flex flex-col gap-y-[24px] z-10 w-full">
+      <h1 className="text-h5 font-bold text-center md:text-left">
+        Try It Today
+      </h1>
+      <p className="text-p2 text-center md:text-left">
+        Get started for free.
+        <br />
+        Add your whole teams as your needs grow.
       </p>
     </div>
   );
