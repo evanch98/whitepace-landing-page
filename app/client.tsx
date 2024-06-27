@@ -2,6 +2,7 @@
 
 import {
   CallToActionSection,
+  CtaSection,
   CustomizeSection,
   FavoriteAppsSection,
   HeroSection,
@@ -37,6 +38,7 @@ const Client = () => {
       <SecurityFeatureSection />
       <SponsorsSection />
       <FavoriteAppsSection />
+      <CtaSection />
     </main>
   );
 };
