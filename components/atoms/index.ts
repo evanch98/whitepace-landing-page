@@ -10,3 +10,4 @@ export * from "./icon-box";
 export * from "./semicircle";
 export * from "./circle";
 export * from "./dialog";
+export * from "./modal";
