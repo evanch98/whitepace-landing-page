@@ -9,3 +9,4 @@ export * from "./security-feature-section";
 export * from "./sponsors-section";
 export * from "./favorite-apps-section";
 export * from "./cta-section";
+export * from "./footer";
