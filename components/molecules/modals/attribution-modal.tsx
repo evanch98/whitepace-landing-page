@@ -13,6 +13,17 @@ export const AttributionModal = () => {
       onClose={attributionModal.onClose}
     >
       <div className="flex flex-col gap-y-1">
+        <p className="text-p2Bold font-bold">
+          Developed by:{" "}
+          <Link
+            href="https://kyawthu.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="hover:underline transition"
+          >
+            Kyaw Thu
+          </Link>
+        </p>
         <p className="text-p3">
           Website Design:{" "}
           <Link
