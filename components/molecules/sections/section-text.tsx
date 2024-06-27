@@ -173,7 +173,7 @@ export const CtaText = () => {
       <h1 className="text-h4 md:text-h3 lg:text-h2 xl:text-h1 font-bold text-center">
         Try Whitepace today
       </h1>
-      <p className="text-p2 lg:text-p1 text-center">
+      <p className="text-p2 md:text-p1 text-center">
         Get started for free
         <br />
         Add your whole team as your needs grow
