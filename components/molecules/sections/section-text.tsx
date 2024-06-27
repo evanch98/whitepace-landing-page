@@ -166,3 +166,18 @@ export const Section6Text = () => {
     </div>
   );
 };
+
+export const CtaText = () => {
+  return (
+    <div className="flex flex-col gap-y-[24px] z-10 w-full md:max-w-[608px]">
+      <h1 className="text-h4 md:text-h3 lg:text-h2 xl:text-h1 font-bold text-center">
+        Try Whitepace today
+      </h1>
+      <p className="text-p2 lg:text-p1 text-center">
+        Get started for free
+        <br />
+        Add your whole team as your needs grow
+      </p>
+    </div>
+  );
+};
