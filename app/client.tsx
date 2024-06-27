@@ -5,6 +5,7 @@ import {
   CtaSection,
   CustomizeSection,
   FavoriteAppsSection,
+  Footer,
   HeroSection,
   Navbar,
   PricingSection,
@@ -39,6 +40,7 @@ const Client = () => {
       <SponsorsSection />
       <FavoriteAppsSection />
       <CtaSection />
+      <Footer />
     </main>
   );
 };
