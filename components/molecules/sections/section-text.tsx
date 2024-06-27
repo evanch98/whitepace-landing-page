@@ -1,3 +1,4 @@
+import { Logo } from "@/components/atoms";
 import { Stroke } from "@/components/molecules/decoration";
 
 export const Section1Text = () => {
@@ -177,6 +178,18 @@ export const CtaText = () => {
         Get started for free
         <br />
         Add your whole team as your needs grow
+      </p>
+    </div>
+  );
+};
+
+export const FooterText = () => {
+  return (
+    <div className="flex flex-col items-center justify-center md:justify-start gap-6 lg:gap-4">
+      <Logo className="w-[191px] h-[34px] md:w-[352px] md:h-[62px] lg:w-[191px] lg:h-[34px]" />
+      <p className="text-p2 text-center md:text-left">
+        whitepace was created for the new ways we live and work. We make
+        beautifully designed around the world.
       </p>
     </div>
   );
