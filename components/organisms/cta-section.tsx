@@ -1,19 +1,21 @@
 import { Button, Container } from "@/components/atoms";
 import { CtaText } from "@/components/molecules";
 import { useMediaQuery } from "@/hooks";
+import { useAttributionModal } from "@/stores";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
 export const CtaSection = () => {
   const matches = useMediaQuery("(min-width: 760px)");
+  const attributionModal = useAttributionModal();
 
   return (
     <Container>
       <div className="flex flex-col items-center justify-center gap-10 pb-8 pt-[140px]">
         <CtaText />
         <div className="z-10">
-          <Button size="with-icon">
+          <Button onClick={() => attributionModal.onOpen()} size="with-icon">
             Get Started
             <ArrowRight className="w-4 h-4" />
           </Button>

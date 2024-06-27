@@ -1,8 +1,11 @@
 import { Button, Container } from "@/components/atoms";
 import { HeroBackground, HeroImage, HeroText } from "@/components/molecules";
+import { useAttributionModal } from "@/stores";
 import { ArrowRight } from "lucide-react";
 
 export const HeroSection = () => {
+  const attributionModal = useAttributionModal();
+
   return (
     <div className="relative overflow-hidden">
       <Container className="bg-secondary text-white">
@@ -10,7 +13,10 @@ export const HeroSection = () => {
           <div className="flex items-center lg:items-start flex-col gap-y-[60px]">
             <HeroText />
             <div className="z-10">
-              <Button size="with-icon">
+              <Button
+                onClick={() => attributionModal.onOpen()}
+                size="with-icon"
+              >
                 Try Whitepace free
                 <ArrowRight className="w-4 h-4" />
               </Button>

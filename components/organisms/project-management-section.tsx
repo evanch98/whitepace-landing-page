@@ -1,9 +1,12 @@
 import { Button, Container } from "@/components/atoms";
 import { HeroImage, Section1Text } from "@/components/molecules";
+import { useAttributionModal } from "@/stores";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 export const ProjectManagementSection = () => {
+  const attributionModal = useAttributionModal();
+
   return (
     <div className="w-full relative">
       <Container className="text-accent-black gap-y-[60px]">
@@ -11,7 +14,10 @@ export const ProjectManagementSection = () => {
           <div className="flex items-center lg:items-start flex-col gap-y-[60px]">
             <Section1Text />
             <div className="z-10">
-              <Button size="with-icon">
+              <Button
+                onClick={() => attributionModal.onOpen()}
+                size="with-icon"
+              >
                 Get Started
                 <ArrowRight className="w-4 h-4" />
               </Button>

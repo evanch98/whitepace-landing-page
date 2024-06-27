@@ -1,8 +1,11 @@
 import { Button, Container } from "@/components/atoms";
 import { HeroImage, Section3Text } from "@/components/molecules";
+import { useAttributionModal } from "@/stores";
 import { ArrowRight } from "lucide-react";
 
 export const CustomizeSection = () => {
+  const attributionModal = useAttributionModal();
+
   return (
     <div className="w-full">
       <Container className="text-white bg-secondary">
@@ -10,7 +13,10 @@ export const CustomizeSection = () => {
           <div className="flex items-center lg:items-start flex-col gap-y-[60px]">
             <Section3Text />
             <div className="z-10">
-              <Button size="with-icon">
+              <Button
+                onClick={() => attributionModal.onOpen()}
+                size="with-icon"
+              >
                 Let&apos; Go
                 <ArrowRight className="w-4 h-4" />
               </Button>

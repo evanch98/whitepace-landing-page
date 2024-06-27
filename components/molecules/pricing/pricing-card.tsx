@@ -1,5 +1,6 @@
 import { Button } from "@/components/atoms";
 import { cn } from "@/lib/utils";
+import { useAttributionModal } from "@/stores";
 import { IPlansType } from "@/types";
 import Image from "next/image";
 
@@ -20,6 +21,8 @@ export const PricingCard = ({
   desc,
   benefits,
 }: IPricingCard) => {
+  const attributionModal = useAttributionModal();
+
   return (
     <div
       className={cn(
@@ -53,7 +56,12 @@ export const PricingCard = ({
           </div>
         ))}
       </div>
-      <Button variant={isHighlight ? "default" : "outline"}>Get Started</Button>
+      <Button
+        onClick={() => attributionModal.onOpen()}
+        variant={isHighlight ? "default" : "outline"}
+      >
+        Get Started
+      </Button>
     </div>
   );
 };

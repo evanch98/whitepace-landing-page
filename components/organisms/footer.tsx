@@ -4,10 +4,13 @@ import {
   FooterCtaText,
   FooterText,
 } from "@/components/molecules";
+import { useAttributionModal } from "@/stores";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 export const Footer = () => {
+  const attributionModal = useAttributionModal();
+
   return (
     <Container className="bg-secondary text-white">
       <div className="flex flex-col pt-[140px] pb-8 gap-y-[80px] md:gap-y-[100px] w-full">
@@ -54,7 +57,10 @@ export const Footer = () => {
           <div className="flex flex-col items-center justify-center md:items-start md:justify-start gap-y-4 max-w-[201px]">
             <FooterCtaText />
             <div className="z-10">
-              <Button size="with-icon">
+              <Button
+                onClick={() => attributionModal.onOpen()}
+                size="with-icon"
+              >
                 Start Today
                 <ArrowRight className="w-4 h-4" />
               </Button>
